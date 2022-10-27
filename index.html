@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>File downloader</title>
 </head>
 <body>
-    <div>
-        
+    <div class="wrapper">
+        <header>
+            <h1>File Downloader</h1>
+            <p>Paste URL of image video or pdf to download.</p>
+        </header>
+        <form action="#">
+            <input type="url" name="url" id="url" placeholder="Enter URL" required>
+            <button type="submit" id="submit">Download File</button>
+        </form>
+
     </div>
     
+<script src="script.js"></script>
 </body>
 </html>
